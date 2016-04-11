@@ -18,3 +18,6 @@ typedef struct Pion_s{
 #define DIM 11
 
 extern void new_game(Pion pl[DIM][DIM]);
+extern Pion creer_pion(int joueur,int cpt);
+extern void ajouter_pion(Pion pl[DIM][DIM],Pion pi,int lig,int col ,int* cpt);
+extern void undo(Pion pl[DIM][DIM],int * cpt,int * joueur);

@@ -12,14 +12,14 @@ int main(){
 	Pion pl[DIM][DIM];
 	Pion pi;
 	new_game(pl);
-	/*int cpt=0;
+	int cpt=0;
 	int joueur=0;
 
 
 
 	/* Commandes 
 	//pl[11][11].Joueur=1;
-	pi = creer_pion(joueur,cpt);
+	*/pi = creer_pion(joueur,cpt);/*
 	ajouter_pion(pl,pi,11,11,&cpt);
 	printf("%d\n",pl[1][1].Joueur);
 	printf("%d\n",pl[11][11].Joueur);
