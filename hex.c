@@ -9,3 +9,11 @@ void new_game(Pion pl[DIM][DIM]){
 		}
 	}
 }
+
+
+
+void switch_joueur(int *joueur){
+	*joueur=(&joueur+1)%2;
+	
+	
+}
